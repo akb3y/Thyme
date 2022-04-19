@@ -1,0 +1,30 @@
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+.npm
+logs
+npm-debug.log*
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+.vscode
+
+# Mac
+.DS_Store
+
+# Webpack
+dist/
+
+
