@@ -14,7 +14,7 @@ const importPhotosIntoAnswer = function () {
       console.log('after pause');
 
       let csvData = {
-        photo_id: Number(data[0]),
+        id: Number(data[0]),
         answer_id: Number(data[1]),
         url: data[2]
       };

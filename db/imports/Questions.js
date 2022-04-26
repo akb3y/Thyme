@@ -10,16 +10,18 @@ const importQuestions = function () {
   let csvStream = fastcsv
     .parse({ skipLines: 1 })
     .on('data', function (data) {
+      console.log(data)
       csvStream.pause();
+      console.log('pause')
       let csvData = {
         question_id: Number(data[0]),
         product_id: Number(data[1]),
-        questionBody: data[2],
-        questionDate: data[3],
-        askerName: data[4],
-        askerEmail: data[5],
+        question_body: data[2],
+        question_date: data[3],
+        asker_name: data[4],
+        asker_email: data[5],
         reported: Number(data[6]),
-        helpfulness: Number(data[7])
+        question_helpfulness: Number(data[7])
       };
 
       Question.insertMany(csvData, (err, results) => {

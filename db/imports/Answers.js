@@ -15,10 +15,10 @@ const importAnswers = function () {
       let csvData = {
         answer_id: Number(data[0]),
         question_id: Number(data[1]),
-        answerBody: data[2],
-        answerDate: data[3],
-        answererName: data[4],
-        answererEmail: data[5],
+       body: data[2],
+        date: data[3],
+        answerer_name: data[4],
+        answerer_email: data[5],
         reported: Number(data[6]),
         helpfulness: Number(data[7]),
         photos: []
