@@ -1,1 +1,1 @@
-# Questions-Answers-API
+# Thyme - Questions & Answers API
