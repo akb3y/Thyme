@@ -78,7 +78,7 @@ Questions and Answers microservice for a retail web portal.
 <!-- CONTACT -->
 ## Contact
 
-Alisha Barraw - alisha.barraw@gmail.com | [LinkedIn](https://www.linkedin.com/in/alisha-barraw)
+Alisha Barraw - [E-mail](mailto:alisha.barraw@gmail.com) | [LinkedIn](https://www.linkedin.com/in/alisha-barraw)
 
 Project Link: [https://github.com/akb3y/Thyme](https://github.com/akb3y/Thyme)
 
